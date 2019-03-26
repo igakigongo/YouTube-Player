@@ -80,7 +80,7 @@ header div.menu i {
 	padding: 0 15px;
 }
 
-content{
+content {
 	padding: 20px 80px;
 	display: flex;
 	flex-direction: row;
@@ -96,4 +96,23 @@ content{
 }
 .SuggestedVideos li {
 	margin-bottom: 10px;
+}
+
+content .main {
+	display: flex;
+	flex-direction: column;
+}
+
+.main p {
+	padding: 15px 0;
+}
+
+.main .title {
+	font-size: 1.5rem;
+}
+
+.main .views-count {
+	color: #666;
+	font-size: 1rem;
+	font-weight: bold;
 }
