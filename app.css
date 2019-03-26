@@ -29,6 +29,7 @@ header div.brand {
 
 .brand img {
 	width: 90px;
+	margin-top:6px;
 }
 
 /* Header Search Section */
@@ -77,4 +78,22 @@ header div.menu {
 header div.menu i {
 	color: #666;
 	padding: 0 15px;
+}
+
+content{
+	padding: 20px 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.SuggestedVideos li img{
+	width: 300px;
+	cursor:pointer;
+}
+.SuggestedVideos{
+	list-style: none
+}
+.SuggestedVideos li {
+	margin-bottom: 10px;
 }
