@@ -137,13 +137,13 @@ content {
 }
 
 /* suggested videos section wrapper */
-#suggested-videos-wrapper {
+.suggested-videos-wrapper {
 	cursor: pointer;
 	display: flex;
 	flex-direction: column;
 }
 
-#suggested-videos-wrapper div {
+.suggested-videos-wrapper div {
 	margin-bottom: 10px;
 }
 
