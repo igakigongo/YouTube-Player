@@ -45,7 +45,7 @@ header div.search{
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%
+	width: 50%;
 }
 
 .search input, .search span {
@@ -86,35 +86,34 @@ header div.menu i {
 	padding: 0 15px;
 }
 
+/* Content section: Video Player & Sidebar*/
+
 content {
 	padding: 20px 80px;
 	display: flex;
 	flex-direction: row;
 }
 
-.suggested-videos li img{
-	width: 300px;
-	cursor:pointer;
-}
-.suggested-videos{
-	list-style: none
-}
-.suggested-videos li {
-	margin-bottom: 10px;
+.video-wrapper {
+	height: 70vh;
 }
 
-content .main, content .sidebar {
+.main, .sidebar {
 	margin: 0 10px;;
 }
 
-content .main {
+.main {
 	display: flex;
 	flex-direction: column;
 	width: 70%;
 }
 
-content .sidebar {
+.sidebar {
 	width: 30%;
+}
+
+.sidebar p {
+	margin-bottom: 15px;
 }
 
 .main p {
@@ -125,8 +124,45 @@ content .sidebar {
 	font-size: 1.5rem;
 }
 
+.views-count {
+	color: #606060;
+}
+
 .main .views-count {
-	color: #666;
 	font-size: 1rem;
+}
+
+.sidebar .views-count, .artist-or-owner {
+	font-size: 0.8rem;
+}
+
+/* suggested videos section wrapper */
+#suggested-videos-wrapper {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+}
+
+#suggested-videos-wrapper div {
+	margin-bottom: 10px;
+}
+
+.video .thumbnail {
+	float: left;
+	width: 38%;
+}
+
+.video .description {
+	float: right;
+	width: 60%;
+}
+
+.video-title {
+	color: #555;
+	font-size: 14px;
 	font-weight: bold;
+}
+
+.artist-or-owner {
+	color: #606060;
 }
