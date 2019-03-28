@@ -1,0 +1,178 @@
+html {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 60px 0;
+}
+
+header {
+	background-color: #fff;
+	box-shadow: 0 1px 1px #ededed;
+	display: flex;
+	flex-direction: row;
+	height: 60px;
+	position: fixed;
+  top: 0;
+	width: 100%;
+}
+
+/* Header: Brand Section */
+header div.brand {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+}
+
+.brand .fa-bars {
+	padding: 0 15px;
+}
+
+.brand img {
+	margin-top:6px;
+	width: 90px;
+}
+
+/* Header Search Section */
+header div.search {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.search input, .search button {
+	font-size: 14px;
+	height: 30px;
+}
+
+.search input {
+	border: 1px solid #c9c9c9;
+	border-bottom-left-radius: 2px;
+	border-top-left-radius: 2px;
+	padding: 0 10px;
+}
+
+.search button {
+	background-color: #c9c9c9;
+	border-bottom-right-radius: 2px;
+	border-style: none;
+	border-top-right-radius: 2px;
+	color: #fff;
+	text-align: center;
+	width: 60px;
+}
+
+.w-25
+{
+	width: 25%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.w-600 {
+	width: 600px;
+}
+
+/* Header: Menu Items Section */
+header div.menu {
+	align-items: center;
+	display: flex;
+	flex-direction: row-reverse;
+	padding-right: 15px;
+}
+
+header div.menu i {
+	color: #666;
+	padding: 0 15px;
+}
+
+/* Content section: Video Player & Sidebar*/
+content {
+	display: flex;
+	flex-direction: row;
+	padding: 20px 80px;
+}
+
+.video-wrapper {
+	height: 70vh;
+}
+
+.main, .sidebar {
+	margin: 0 10px;;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+.sidebar {
+	width: 30%;
+}
+
+.sidebar p {
+	margin-top: 0;
+}
+
+.main .description {
+	padding: 0;
+}
+
+.main .title {
+	border-bottom: 1px solid #c9c9c9;
+	font-size: 1.5rem;
+	padding-bottom: 30px;
+}
+
+.views-count {
+	color: #606060;
+}
+
+.main .views-count {
+	font-size: 1rem;
+}
+
+.sidebar .views-count, .artist-or-owner {
+	font-size: 0.8rem;
+}
+
+/* suggested videos section wrapper */
+.suggested-videos-wrapper {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+}
+
+.suggested-videos-wrapper div {
+	margin-bottom: 10px;
+}
+
+.video .thumbnail {
+	float: left;
+	width: 38%;
+}
+
+.video .description {
+	float: right;
+	width: 60%;
+}
+
+.video-title {
+	color: #555;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.artist-or-owner {
+	color: #606060;
+}

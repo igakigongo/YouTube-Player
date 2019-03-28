@@ -1,18 +1,124 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Youtube Page</title>
-	<link rel="stylesheet" type="text/css" href="./app.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-</head>
-<body>
-	<header>
-		<menu class="item item1"><a href ="#"><i class="fas fa-bars"></i></a></menu>
-		<img src="./images/youtube.jpg">
-		<logo class="item item2">uche</logo>
-		<input type="text" name="search"><span>logo</span>
-		<items class="item item4">uche</items>
-	</header>
-	<main></main>
-</body>
+<html lang="en">
+	<head>
+		<title>Youtube Page</title>
+		<link rel="stylesheet" type="text/css" href="./assets/css/app.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	</head>
+	<body>
+		<header>
+			<div class="brand">
+				<i class="fa fa-bars fa-1x"></i>
+				<a href ="#">
+					<img alt="Brand Image" src="./assets/images/logo.png">
+				</a>
+			</div>
+			<div class="search">
+				<input class="w-600" name="search" placeholder="Search" type="text">
+				<button class="h-30"><i class="fa fa-search"></i></button>
+			</div>
+			<div class="menu w-25">
+				<i class="fa fa-user-circle fa-2x"></i>
+				<i class="fa fa-bell"></i>
+				<i class="fa fa-comment"></i>
+				<i class="fa fa-th"></i>
+				<i class="fa fa-video"></i>
+			</div>
+		</header>
+
+		<content>
+			<div class="main">
+				<div class="video-wrapper">
+					<iframe width="100%" height="100%" src="https://www.youtube.com/embed/kdXKdRoB9Wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<p class="title">Silicon Valley Season 1 Intro<br /><span class="views-count">12,901,800 views<span></p>
+				<p class="description">Just what you would like to define about this video</p>
+			</div>
+			<div class="sidebar">
+				<p>Up next</p>
+				<section class="suggested-videos-wrapper">
+					<div>
+						<section class="video">
+							<img alt="season 1" class="thumbnail" src="./assets/images/sea1.jpg" />
+						<section>
+						<section class="description">
+								<span class="video-title">James Blunt Tears and Rain</span><br />
+								<span class="artist-or-owner">James Blunt</span><br />
+								<span class="views-count">60M views</span>
+						</section>
+					</div>
+					<div>
+						<section class="video">
+							<img alt="season 2" class="thumbnail" src="./assets/images/sea2.jpeg" />
+						<section>
+						<section class="description">
+								<span class="video-title">James Blunt Tears and Rain</span><br />
+								<span class="artist-or-owner">James Blunt</span><br />
+								<span class="views-count">60M views</span>
+						</section>
+					</div>
+					<div>
+						<section class="video">
+							<img alt="season 3" class="thumbnail" src="./assets/images/sea3.png" />
+						<section>
+						<section class="description">
+								<span class="video-title">James Blunt Tears and Rain</span><br />
+								<span class="artist-or-owner">James Blunt</span><br />
+								<span class="views-count">60M views</span>
+						</section>
+					</div>
+					<div>
+						<section class="video">
+							<img alt="season 4" class="thumbnail" src="./assets/images/sea4.jpg" />
+						<section>
+						<section class="description">
+								<span class="video-title">James Blunt Tears and Rain</span><br />
+								<span class="artist-or-owner">James Blunt</span><br />
+								<span class="views-count">60M views</span>
+						</section>
+					</div>
+					<div>
+						<section class="video">
+							<img alt="James Blunt Tears and Rain" class="thumbnail" src="./assets/images/spiderman-759.jpg" />
+						<section>
+						<section class="description">
+								<span class="video-title">James Blunt Tears and Rain</span><br />
+								<span class="artist-or-owner">James Blunt</span><br />
+								<span class="views-count">60M views</span>
+						</section>
+					</div>
+					<div>
+						<section class="video">
+							<img alt="Some Video Name" class="thumbnail" src="./assets/images/sea3.png" />
+						<section>
+						<section class="description">
+								<span class="video-title">James Blunt Tears and Rain</span><br />
+								<span class="artist-or-owner">James Blunt</span><br />
+								<span class="views-count">60M views</span>
+						</section>
+					</div>
+					<div>
+						<section class="video">
+							<img alt="sample description" class="thumbnail" src="./assets/images/sea4.jpg" />
+						<section>
+						<section class="description">
+								<span class="video-title">James Blunt Tears and Rain</span><br />
+								<span class="artist-or-owner">James Blunt</span><br />
+								<span class="views-count">60M views</span>
+						</section>
+					</div>
+					<div>
+						<section class="video">
+							<img alt="Just that classic video" class="thumbnail" src="./assets/images/spiderman-759.jpg" />
+						<section>
+						<section class="description">
+								<span class="video-title">James Blunt Tears and Rain</span><br />
+								<span class="artist-or-owner">James Blunt</span><br />
+								<span class="views-count">60M views</span>
+						</section>
+					</div>
+				</section>
+			</div>
+		</content>
+	</body>
 </html>
