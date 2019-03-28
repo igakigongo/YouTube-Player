@@ -4,19 +4,25 @@
 	padding: 0;
 }
 
-header{
+html {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+}
+
+header {
+	background-color: #fff;
+	box-shadow: 0 1px 1px #ededed;
 	display: flex;
 	flex-direction: row;
 	height: 60px;
-  /*width: 100%;*/
-  border-bottom: 1px solid #000;
   padding: 20px;
+	position: sticky;
+	position: -webkit-sticky;
+  top: 0;
 }
 
 /* Header: Brand Section */
-
 header div.brand {
-	/*display: inline-block;*/
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -84,17 +90,16 @@ content {
 	padding: 20px 80px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 }
 
-.SuggestedVideos li img{
+.suggested-videos li img{
 	width: 300px;
 	cursor:pointer;
 }
-.SuggestedVideos{
+.suggested-videos{
 	list-style: none
 }
-.SuggestedVideos li {
+.suggested-videos li {
 	margin-bottom: 10px;
 }
 
