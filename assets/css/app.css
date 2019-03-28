@@ -98,9 +98,18 @@ content {
 	margin-bottom: 10px;
 }
 
+content .main, content .sidebar {
+	margin: 0 10px;;
+}
+
 content .main {
 	display: flex;
 	flex-direction: column;
+	width: 70%;
+}
+
+content .sidebar {
+	width: 30%;
 }
 
 .main p {
