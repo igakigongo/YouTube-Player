@@ -68,8 +68,8 @@ header div.search {
 .search button {
 	background-color: #c9c9c9;
 	border-bottom-right-radius: 2px;
-	border-top-right-radius: 2px;
 	border-style: none;
+	border-top-right-radius: 2px;
 	color: #fff;
 	text-align: center;
 	width: 60px;
@@ -135,8 +135,8 @@ content {
 }
 
 .main .title {
-	font-size: 1.5rem;
 	border-bottom: 1px solid #c9c9c9;
+	font-size: 1.5rem;
 	padding-bottom: 30px;
 }
 
