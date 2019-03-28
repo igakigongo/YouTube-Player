@@ -10,8 +10,8 @@ html {
 }
 
 body {
-	padding: 0;
 	margin: 0;
+	padding: 60px 0;
 }
 
 header {
@@ -20,26 +20,27 @@ header {
 	display: flex;
 	flex-direction: row;
 	height: 60px;
-	position: sticky;
+	position: fixed;
 	position: -webkit-sticky;
   top: 0;
+	width: 100%;
 }
 
 /* Header: Brand Section */
 header div.brand {
+	align-items: center;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	width: 25%;
 }
 
-.brand i.fa-bars {
+.brand .fa-bars {
 	padding: 0 15px;
 }
 
 .brand img {
-	width: 90px;
 	margin-top:6px;
+	width: 90px;
 }
 
 /* Header Search Section */
@@ -55,6 +56,9 @@ header div.search {
 
 .search input, .search span {
 	border: 1px solid #c9c9c9;
+}
+
+.h-30 {
 	height: 30px;
 }
 
